@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require bootstrap
+ *= require_self
+
+ */
+
+ .container{
+ 	padding-top: 10px;
+ 	margin-top: 100px;
+ 	width: 940px;
+ 	border-width: 3px;
+ 	border-color: #BDBDBD;
+ 	border-style: solid;
+ 	background-color: #F2F2F2;
+ 	margin-bottom: 50px;
+
+ }
+ body{
+ 	background: #CECEF6;
+ }
+.title{
+	color: blue;
+	font-weight: bold;
+	margin-left: -80px;
+	border-width: 0px 0px 1px 0px;
+	border-color: #BDBDBD;
+	border-style: solid;
+	margin-bottom: 20px;
+	padding: 10px 0px 10px 20px;
+}
+.all{
+	/*padding-left: 10px;*/
+}
+
+.slide{
+	height:200px;
+	border-width: 2px;
+	border-color: #BDBDBD;
+	border-style: solid;
+}
+.new-post a{
+color: black;
+font-weight: bold;
+}
+.new-post{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.slide-content{
+	padding-top: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+	text-align: center;
+}
